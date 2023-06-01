@@ -18,5 +18,3 @@ col = floor( ( p - 1) ./ nrGrid ) .* ncSubdiv + c; % respective column index of 
 row = mod( p - 1 , nrGrid) .* nrSubdiv + r;        % respective row index of the original matrix
 
 end
-
-
